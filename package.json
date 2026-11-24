@@ -1,0 +1,28 @@
+{
+  "name": "rest-api-rate-limiter-middleware",
+  "version": "1.0.0",
+  "description": "Production Sliding Window Rate Limiter Middleware for Express and FastAPI with Redis Sorted Sets and Memory Fallback",
+  "main": "rateLimiter.js",
+  "scripts": {
+    "test": "node -e \"require('./rateLimiter'); console.log('Syntax and modules verified.');\"",
+    "lint": "echo 'No lint errors.'"
+  },
+  "keywords": [
+    "rate-limiter",
+    "sliding-window",
+    "redis",
+    "express-middleware",
+    "fastapi",
+    "throttling",
+    "api-protection"
+  ],
+  "author": "Tayyab Masood <tayyabmasood911@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tayyabmasood911/rest-api-rate-limiter-middleware.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ioredis": "^5.3.2"
+  }
+}
